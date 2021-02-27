@@ -1,9 +1,17 @@
 [package]
 name = "kyoto_machine"
 version = "0.1.0"
-authors = ["jiachen bai <646329483@qq.com>"]
+authors = ["jiachenbai"]
 edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "Machine module for kyoto"
+homepage = "https://github.com/JeepYiheihou/kyoto_machine"
+repository = "https://github.com/JeepYiheihou/kyoto_machine"
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+bytes = "1.0"
+kyoto_data = "0.1.0"
+kyoto_protocol = "0.1.0"

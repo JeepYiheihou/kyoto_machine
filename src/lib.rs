@@ -1,7 +1,5 @@
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
-}
+/* The machine handler for machine stage operations. */
+mod machine_handler;
+
+/* Expose MachineHandler struct. */
+pub type MachineHandler = machine_handler::MachineHandler;
